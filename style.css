@@ -1,10 +1,10 @@
-<style>
-        @font-face { 
-        font-family: 'Newfont'; 
-        src: url("nasalization-rg.woff2") format('woff'); 
-        font-weight: normal; 
-        font-style: normal; 
-        }
+
+@font-face { 
+    font-family: 'Newfont'; 
+    src: url("nasalization-rg.woff2") format('woff2'); 
+    font-weight: normal; 
+    font-style: normal; 
+}
 
         #btn-back-to-top {
     position: fixed;
@@ -979,5 +979,3 @@ body {
     pointer-events: none;
     z-index: 9999;
 }
-
-    </style>
