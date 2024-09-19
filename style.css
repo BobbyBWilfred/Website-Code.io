@@ -222,11 +222,7 @@
   background-color: #d62976;
   transition-duration: .3s;
 }
-/* twitter*/
-.containerTwo:hover {
-  background-color: #00acee;
-  transition-duration: .3s;
-}
+
 /* linkdin*/
 .containerThree:hover {
   background-color: #0072b1;
