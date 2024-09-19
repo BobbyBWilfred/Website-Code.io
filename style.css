@@ -467,46 +467,62 @@ nav {
             gap: 20px;
         }
 
-        .contacts {
-            display: flex;
-            justify-content: space-around;
-            align-items: center;
-            padding: 20px;
-            background-color: #67098a; 
-        }
-        
-        .contact-card {
-            text-align: center;
-            padding: 20px;
-            background-color: white;
-            border-radius: 10px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-            transition: transform 0.3s ease;
-        }
-        
-        .contact-card:hover {
-            transform: scale(1.05);
-        }
-        
-        .contact-card img {
-            width: 150px;
-            height: 150px;
-            border-radius: 50%;
-            object-fit: cover;
-            margin-bottom: 10px;
-        }
-        
-        .role {
-            font-weight: bold;
-            font-size: 18px;
-            color: #333;
-        }
-        
-        .name {
-            font-size: 16px;
-            color: #666;
-        }
-        
+.contact-card {
+    text-align: center;
+    font-family: 'Newfont', sans-serif;
+    width: 240px;
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: rgb(64, 5, 93);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+}
+
+.contact-card:hover {
+    transform: scale(1.05);
+}
+
+.contact-card img {
+    width: 180px;
+    height: 220px;
+    border-radius: 15px;
+    object-fit: cover;
+}
+
+#contacts {
+    padding: 20px;
+    text-align: center;
+    font-family: 'Newfont', sans-serif;
+}
+
+#contacts h2, .faculty-heading {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    font-size : 130%;
+    font-family: 'Newfont', sans-serif;
+}
+
+.contacts-heading {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-size : 130%;
+    font-family: 'Newfont', sans-serif;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
+.contacts{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    font-family: 'Fira code', sans-serif;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+}
+
 .faculty-heading {
     text-align: center;
     font-size: 130%;
