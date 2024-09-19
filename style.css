@@ -6,7 +6,7 @@
     font-style: normal; 
 }
 
-        #btn-back-to-top {
+      #btn-back-to-top {
     position: fixed;
     bottom: 20px;
     right: 20px;
@@ -19,14 +19,6 @@
     background-position: center;
     border: none;  
     cursor: pointer;
-  }
-#background-video {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%; 
-    min-height: 100%;
-    z-index: -1;
   }
         body {
             margin: 0;
@@ -222,7 +214,11 @@
   background-color: #d62976;
   transition-duration: .3s;
 }
-
+/* twitter*/
+.containerTwo:hover {
+  background-color: #00acee;
+  transition-duration: .3s;
+}
 /* linkdin*/
 .containerThree:hover {
   background-color: #0072b1;
